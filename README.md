@@ -1,53 +1,81 @@
-# 🏆 Customer Churn Analysis - Production-Ready ML System
+# ChurnQ-AI �
+*Advanced Customer Churn Prediction System*
 
-> **A comprehensive, enterprise-grade customer churn prediction platform with advanced analytics, model explainability, and strategic business intelligence.**
+## 🚀 Overview
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io)
-[![XGBoost](https://img.shields.io/badge/XGBoost-98.4%25_ROC--AUC-green.svg)](https://xgboost.readthedocs.io)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+ChurnQ-AI is a production-ready customer churn prediction system that helps businesses identify at-risk customers and implement effective retention strategies.
 
-## 🎯 Executive Summary
+## ✨ Features
 
-**Business Problem**: E-commerce companies lose 15-25% of customers annually, with acquisition costs 5-25x higher than retention costs.
+- **Machine Learning Models**: XGBoost (98.4% ROC-AUC), Random Forest, Logistic Regression
+- **Interactive Dashboard**: 10-page Streamlit application with real-time analytics
+- **Business Intelligence**: Revenue impact analysis and ROI calculations
+- **Customer Segmentation**: Risk-based customer grouping
+- **Model Explainability**: SHAP analysis for prediction interpretation
+- **Production Ready**: Comprehensive testing and monitoring
 
-**Solution**: End-to-end ML system achieving **98.4% ROC-AUC** that identifies at-risk customers early, provides actionable insights, and drives **$100K+ annual savings** through targeted retention strategies.
+## 🛠️ Technology Stack
 
-**Key Results**:
-- 🎯 **Early Detection**: Identifies 80% of churners 2+ months in advance
-- 💰 **ROI Impact**: 250-400% return on retention investments
-- 📊 **Business Intelligence**: Risk-based segmentation with personalized strategies
-- 🚀 **Production Ready**: Scalable architecture with monitoring and explainability
+- **Backend**: Python 3.13+
+- **Frontend**: Streamlit
+- **ML Libraries**: XGBoost, Scikit-learn, Pandas
+- **Visualization**: Plotly, Matplotlib, Seaborn
+- **Testing**: Unittest framework
 
-## 📊 Dataset & Scale
+## 🚀 Quick Start
 
-- **📈 5,630 customers** across multiple demographics and behaviors
-- **🔢 20+ features** including satisfaction, tenure, engagement, and financial metrics
-- **🎯 16.8% churn rate** representing $474K+ annual revenue at risk
-- **🏢 Real-world complexity** with missing values, outliers, and class imbalance
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Adigrx2403/ChurnQ-AI.git
+   cd ChurnQ-AI
+   ```
 
-## 🏗️ Architecture Overview
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+3. **Run the application**
+   ```bash
+   streamlit run app.py
+   ```
+
+4. **Access the dashboard**
+   Open your browser to `http://localhost:8501`
+
+## 📊 Dashboard Pages
+
+1. **🏠 Home** - Project overview and key metrics
+2. **� Data Overview** - Dataset exploration and statistics
+3. **🤖 Model Performance** - ML model comparison and metrics
+4. **🎯 Churn Prediction** - Individual customer predictions
+5. **🔍 Feature Importance** - Model explainability analysis
+6. **📊 Advanced Analytics** - Deep-dive statistical analysis
+7. **💼 Business Intelligence** - Revenue and ROI insights
+8. **👥 Customer Segmentation** - Risk-based customer groups
+9. **🔄 Retention Strategies** - Actionable business recommendations
+10. **📖 Documentation** - Comprehensive project guide
+
+## 🧪 Testing
+
+Run the complete test suite:
+```bash
+python run_tests.py
 ```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Raw Data      │───▶│  Data Pipeline   │───▶│  Feature Store  │
-│  (Excel/CSV)    │    │  • Cleaning      │    │  • Engineered   │
-└─────────────────┘    │  • Engineering   │    │  • Validated    │
-                       │  • Validation    │    │  • Cached       │
-                       └──────────────────┘    └─────────────────┘
-                                │                        │
-                                ▼                        ▼
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Dashboard     │◀───│   ML Pipeline    │◀───│  Model Store    │
-│  • 10 Pages     │    │  • 3 Algorithms  │    │  • XGBoost      │
-│  • Real-time    │    │  • Validation    │    │  • Preprocessor │
-│  • Interactive │    │  • Explainability│    │  • Scaler       │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-```
 
-## 🏗️ Project Structure
+## 📈 Model Performance
 
-```
+- **XGBoost**: 98.4% ROC-AUC
+- **Random Forest**: 97.8% ROC-AUC  
+- **Logistic Regression**: 89.2% ROC-AUC
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+*Built for better customer retention strategies*
 Staytistics/
 ├── app.py                          # Main Streamlit application
 ├── train_models.py                 # Model training script

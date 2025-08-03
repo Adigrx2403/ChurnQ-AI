@@ -107,3 +107,11 @@ coverage.xml
 notes.txt
 TODO.md
 drafts/
+
+# Development files (keep local only)
+INTERVIEW_QUESTIONS.md
+TEST_REPORT.md
+notebooks/
+
+# IDE specific
+.qodo/
