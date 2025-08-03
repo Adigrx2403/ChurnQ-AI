@@ -88,7 +88,7 @@ class TestDataProcessor(unittest.TestCase):
         
         # Check that numerical columns were imputed with median
         original_median = self.sample_data['HourSpendOnApp'].median()
-        imputed_values = processed_data.loc[5:7, 'HourSpendOnApp']
+        imputed_values = data_with_missing.loc[5:7, 'HourSpendOnApp']
         
         # The imputed values should be reasonable (not the original NaN)
         self.assertTrue(all(imputed_values.notna()))
