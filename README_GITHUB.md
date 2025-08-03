@@ -55,7 +55,7 @@ shap>=0.42.0
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/abhi03sagar/ChurnQ-AI.git
+   git clone https://github.com/Adigrx2403/ChurnQ-AI.git
    cd ChurnQ-AI
    ```
 
@@ -106,8 +106,8 @@ Test categories:
 
 ## 🤝 Contributors
 
-- **Abhinav** - [abhinav.techy.codes@gmail.com](mailto:abhinav.techy.codes@gmail.com)
 - **Aditya Singh** - [as6717@srmist.edu.in](mailto:as6717@srmist.edu.in)
+- **Abhinav Sagar** - [abhinav.techy.codes@gmail.com](mailto:abhinav.techy.codes@gmail.com)
 
 ## 📄 License
 
